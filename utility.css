@@ -1,0 +1,64 @@
+.border {
+  border: 2px solid red;
+  margin: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-gray {
+  background-color: #121212;
+}
+
+.m-1 {
+  margin: 7px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+/* for create a dark scroll bar  */
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1e1e1e; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b4b4b; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #1e1e1e; /* Creates space between the track and thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5e5e5e; /* Color of the scrollbar thumb on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4b4b4b #1e1e1e; /* thumb color and track color */
+}
